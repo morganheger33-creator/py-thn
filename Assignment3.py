@@ -16,3 +16,19 @@ elif a<b:
     print("First value is smaller than second one")
 else:
     print("Both vlaues are equal")
+
+
+
+#Practicing with another example
+Kiwi = 1 
+Mango = 2 
+Grapes = 3
+a = int(input("Enter a number from 1 to 3: "))
+if a == Kiwi:
+   print("I ate Kiwi.")
+elif a == Mango:
+   print("Mangoes are tasty.")
+elif a == Grapes:
+   print("Grapes are sour.")
+else:
+   print("Invalid entry, Please choose a number from 1 to 3 as mentioned.")
