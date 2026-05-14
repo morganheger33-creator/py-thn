@@ -5,7 +5,7 @@ if num > 0:
     print("The number is positive")
 elif num == 0:
     print("The number is Zero")
-else: 
+#else: 
     print("The number is negative") 
 
 
@@ -23,3 +23,15 @@ else:
     #Importing the random module
     import random
     print(random.randint(0,99999))
+
+
+
+    # Write a program that displays the power of 2 using anonymous function
+terms = 32
+    # uncoment the code below to take input from the user
+    # terms = int(input("How many terms? "))
+    #use anonymous function
+result = list(map(lambda x : 2 ** x, range(terms)))
+print("The total terms are: 32")
+for i in range(terms) :
+        print("2 raised to power",i,"is",result[i])
